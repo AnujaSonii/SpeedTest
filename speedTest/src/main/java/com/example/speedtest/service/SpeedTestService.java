@@ -8,7 +8,7 @@ import java.io.*;
 
 @Service
 public class SpeedTestService {
-    private static final String SPEEDTEST_PATH = "C:\\Users\\honey\\AppData\\Roaming\\Python\\Python313\\Scripts\\speedtest.exe";
+    private static final String SPEEDTEST_PATH = "C:\\Users\\HOME\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\speedtest-cli.exe";
 
     public SpeedTestResult runSpeedTest() {
         try {
